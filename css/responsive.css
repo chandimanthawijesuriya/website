@@ -225,8 +225,8 @@
 		border-radius: 15px 0px 15px 0px; 
     }
 	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
-		border-color: #fd6802;
-		background-color: #fd6802;
+		border-color: #c8376c;
+		background-color: #c8376c;
 	}
     .navbar-default .navbar-collapse,
     .navbar-default .navbar-form {
@@ -471,4 +471,16 @@
 	.home-one-slider-otem .slider-content-area{
 		height: 460px;
 	}
+
+    .slider-wrapper .owl-nav .owl-prev {
+        margin-top: 45%;
+        left: 0px;
+        position: absolute;
+    }
+    
+    .slider-wrapper .owl-nav .owl-next {
+        margin-top: 45%;
+        right: 0;
+        position: absolute;
+    }
 }
