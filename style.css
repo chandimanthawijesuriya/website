@@ -752,8 +752,8 @@ li.social-links a {
 }
 
 .section-title h3 {
-    font-size: 42px;
-    font-weight: 500;
+    font-size: 40px;
+    font-weight: 600;
     line-height: 62px;
     margin: 0 0 25px;
     padding: 0;
@@ -3302,8 +3302,10 @@ select.mobile-device {
     .pricingTable .title{ font-size: 22px; }
 }
 
-
-
+.project-header{
+    font-size: 40px;
+    font-weight: 600;
+}
 
 .pd-add{
 	padding: 70px 0px;
@@ -3340,3 +3342,131 @@ select.mobile-device {
     font-weight: 600;
 }
 
+.faq-header{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.faq-sub-header{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.faq-ending{
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.faq-question{
+    font-size: 20px;
+}
+
+.faq-top-section{
+    margin-bottom: 25px;
+}
+
+.card{
+    border-radius: 25px 0px 25px 0px;
+}
+
+.card-body{
+    font-size: 16px;
+    margin-top: -15px;
+    height: 150px;
+    border-radius: 0px 0px 25px 0px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.section_padding_130 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.faq_area {
+    position: relative;
+    z-index: 1;
+    background-color: #fcf3f6;
+}
+
+.middle-line{
+    margin-top: -10px;
+}
+
+.faq-accordian {
+    position: relative;
+    z-index: 1;
+}
+.faq-accordian .card {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 1.5rem;
+}
+.faq-accordian .card:last-child {
+    margin-bottom: 0;
+}
+.faq-accordian .card .card-header {
+    border-radius: 20px 0px 20px 0px;
+    background-color: #ffffff;
+    padding: 25px 0 25px 0;
+    border-bottom-color: #ffffff;
+}
+.faq-accordian .card .card-header h6 {
+    cursor: pointer;
+    padding: 1.75rem 2rem;
+    color: #c8376c;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.faq-accordian .card .card-header h6 span {
+    font-size: 1.5rem;
+}
+.faq-accordian .card .card-header h6.collapsed {
+    color: #000000;
+}
+.faq-accordian .card .card-header h6.collapsed span {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+.faq-accordian .card .card-body {
+    padding: 1.75rem 2rem;
+}
+.faq-accordian .card .card-body p:last-child {
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 575px) {
+    .support-button p {
+        font-size: 14px;
+    }
+}
+
+.support-button i {
+    color: #c8376c;
+    font-size: 1.25rem;
+}
+
+@media only screen and (max-width: 575px) {
+    .support-button a {
+        font-size: 13px;
+    }
+
+    .card-body{
+        font-size: 13px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 675px) {
+    .card-body{
+        font-size: 14px;
+        height: 250px;
+    }
+}
