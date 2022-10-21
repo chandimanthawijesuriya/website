@@ -692,7 +692,7 @@ li.social-links a {
 }
 
 .section.lb {
-    background-color: #f2f3f5;
+    background-color: #fcf3f6;
 }
 
 .section.db {
@@ -3349,7 +3349,6 @@ select.mobile-device {
 
 .faq-sub-header{
     font-size: 18px;
-    margin-bottom: 20px;
 }
 
 .faq-ending{
@@ -3410,37 +3409,7 @@ select.mobile-device {
     padding: 25px 0 25px 0;
     border-bottom-color: #ffffff;
 }
-.faq-accordian .card .card-header h6 {
-    cursor: pointer;
-    padding: 1.75rem 2rem;
-    color: #c8376c;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -ms-grid-row-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-}
-.faq-accordian .card .card-header h6 span {
-    font-size: 1.5rem;
-}
-.faq-accordian .card .card-header h6.collapsed {
-    color: #000000;
-}
-.faq-accordian .card .card-header h6.collapsed span {
-    -webkit-transform: rotate(-180deg);
-    transform: rotate(-180deg);
-}
-.faq-accordian .card .card-body {
-    padding: 1.75rem 2rem;
-}
-.faq-accordian .card .card-body p:last-child {
-    margin-bottom: 0;
-}
+
 
 @media only screen and (max-width: 375px) {
     .faq-question {
@@ -3470,13 +3439,153 @@ select.mobile-device {
 
     .card-body{
         font-size: 13px;
-        height: 200px;
+        
     }
 }
 
 @media only screen and (max-width: 675px) {
     .card-body{
         font-size: 14px;
-        height: 250px;
+        
     }
 }
+
+
+.accordions {
+    width: 100%;
+    margin: 10px auto;
+    }
+    
+    .accordions h3 {
+    padding-top: 6px;
+    text-align: center;
+    
+    font-weight: bold;
+    }
+    
+    .accordion-item {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+    }
+    
+    .accordion-item .accordion-title {
+    cursor: pointer;
+    padding: 20px;
+    transition: transform 0.4s ease-in-out;
+    }
+    
+    .accordion-item .accordion-title.active-title {
+    background-color: #ffffff;
+    color: #ffffff;
+    }
+    
+    .accordion-item .accordion-title h3 {
+    font-weight: 700;
+    margin: 0;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    }
+    
+    .accordion-item .accordion-title i.fa-chevron-down {
+    transform: rotate(0);
+    transition: 0.4s;
+    color: #c8376c;
+    }
+    
+    .accordion-item .accordion-title i.fa-chevron-down.chevron-top {
+    transform: rotate(-180deg);
+    color: #c8376c;
+    }
+    
+    .accordion-item .accordion-content {
+    display: none;
+    line-height: 1.7;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 0 0 5px 5px;
+    color: #3f3f3f;
+    }
+    
+    .accordion-item .accordion-content.active {
+    display: block;
+    }
+    
+    .accordion-item .accordion-content p {
+    margin: 0;
+    
+    font-size: 16px;
+    }
+    
+    .details {
+    background: #dce1f2;
+    }
+    
+    .details .detailed_info {
+    margin: 50px auto;
+    }
+    
+    .details img {
+    margin: 0 auto;
+    display: block;
+    /* margin-top: 120px; */
+    }
+    
+    .details h3 {
+    
+    font-weight: bold;
+    font-size: 20px;
+    }
+    
+    .details p {
+    
+    font-size: 16px;
+    line-height: 1.5em;
+    }
+    
+    .details ul li {
+    
+    font-size: 16px;
+    line-height: 1.7em;
+    }
+    
+    .mail-contact{
+        font-size: 20px;
+    }
+
+    .mail-infinity{
+        font-weight: 500;
+        color: #c8376c;
+    }
+
+    .cloud-sub-title{
+        font-size: 20px;
+        font-weight: 600;
+        color: #c8376c;
+
+    }
+
+    .top-space{
+        padding-top: 10px;
+    }
+
+    .bottom-space{
+        padding-top: 8px;
+        padding-bottom: 5px;
+        font-weight: 600;
+    }
+
+    .web-contact{
+        font-weight: 600;
+        color: #c8376c;
+    }
+
+    .web-contact:hover{
+        font-weight: 600;
+        color: #c8376c;
+    }
+
