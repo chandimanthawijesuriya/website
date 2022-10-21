@@ -3557,6 +3557,11 @@ select.mobile-device {
         font-size: 20px;
     }
 
+    .mail-contact-careers{
+        font-weight: 500;
+        color: #c8376c;
+    }
+
     .mail-infinity{
         font-weight: 500;
         color: #c8376c;
@@ -3579,6 +3584,11 @@ select.mobile-device {
         font-weight: 600;
     }
 
+    .middle-space{
+        margin-top: -15px;
+        padding-bottom: -5px;
+    }
+
     .web-contact{
         font-weight: 600;
         color: #c8376c;
@@ -3588,4 +3598,5 @@ select.mobile-device {
         font-weight: 600;
         color: #c8376c;
     }
+
 
