@@ -767,6 +767,7 @@ li.social-links a {
 
 .service-widget{
 	background: #ffffff;
+    border-radius: 10px;
 }
 
 .section.lb .service-dit h3{
@@ -2953,6 +2954,7 @@ select.mobile-device {
 	padding-bottom: 10px;
 	transition: all 1s ease-in-out;
 	margin-bottom: 30px;
+    border-radius: 10px;
 }
 .about-icon{
 	padding: 20px 0px;
@@ -3455,7 +3457,7 @@ select.mobile-device {
     margin: 10px auto;
     }
     
-    .accordions h3 {
+    .accordion-item .accordion-title h3{
     padding-top: 6px;
     text-align: center;
     
