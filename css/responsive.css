@@ -322,7 +322,7 @@
 		padding: 60px 0;
 	}
 	.post-media{
-		margin-bottom: 30px;
+		margin-bottom: 15px;
 	}
 	.navbar-default .navbar-toggle .icon-bar{
 		background-color: #ffffff;
@@ -483,5 +483,14 @@
         margin-top: 55%;
         right: 0;
         position: absolute;
+    }
+
+    .service-dit{
+        padding: 0px 15px 15px;
+    }
+
+    .about-text {
+        
+        padding: 10px 10px 10px;
     }
 }
