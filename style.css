@@ -3315,8 +3315,9 @@ select.mobile-device {
 	float: left;
 	margin: 0 11px;
 	padding: 0px 15px;
-	width: 31%;
+	width: 100%;
 	box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
 .address-icon{
@@ -3568,6 +3569,10 @@ select.mobile-device {
         color: #c8376c;
     }
 
+    .mail-infinity:hover{
+        color: #1f1f1f;
+    }
+
     .cloud-sub-title{
         font-size: 20px;
         font-weight: 600;
@@ -3600,4 +3605,15 @@ select.mobile-device {
         color: #c8376c;
     }
 
+    .linkedin-link{
+        font-weight: 500;
+        color: #c8376c;
+    }
 
+    .contact-des{
+        padding-bottom: 10px;
+    }
+
+    .mail-des{
+        padding-bottom: 13px;
+    }
