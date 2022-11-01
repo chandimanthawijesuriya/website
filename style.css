@@ -2977,6 +2977,11 @@ select.mobile-device {
 	color: #c8376c;
 }
 
+.about-text p{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
 .about-item:hover .about-icon{
 	transform: rotate(-360deg);
 	transition: all 1s ease-in-out;
