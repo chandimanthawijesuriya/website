@@ -1621,6 +1621,10 @@ hr.invis1 {
     padding-bottom: 5px;
 }
 
+.fr-inner p{
+    line-height: 20px;
+}
+
 .features-left i {
     float: right;
 }
@@ -1631,6 +1635,11 @@ hr.invis1 {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+.fl-inner p{
+    line-height: 20px;
+}
+
 
 #features h4 {
     text-transform: capitalize;
