@@ -374,6 +374,11 @@
         text-align: left;
         margin-right: 0;
     }
+
+    .features-right{
+        margin-top: -60px;
+    }
+
     .effect-1:after {
         border: 0 !important;
         box-shadow: none !important;
@@ -492,5 +497,14 @@
     .about-text {
         
         padding: 10px 10px 10px;
+    }
+
+    .owl-prev {
+        margin-top: -10%;
+        left: -8%;
+    }
+    .owl-next {
+        margin-top: -10%;
+        right: -8%;
     }
 }
