@@ -920,12 +920,10 @@ li.social-links a {
     display: block;
     text-align: center;
     width: 100%;
-    opacity: 0.3;
+    
 }
 
-.logos img:hover {
-    opacity: 0.5;
-}
+
 
 .desc h3 i {
     color: #c8376c;
@@ -1295,13 +1293,15 @@ li.social-links a {
 
 .message-box p {
     margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
 }
 
 .message-box .lead {
     padding-top: 10px;
-    font-size: 19px;
+    font-size: 20px;
     font-style: italic;
-    color: #999;
+    color: rgb(0, 0, 0);
     padding-bottom: 0;
 }
 
@@ -1494,10 +1494,16 @@ hr.invis1 {
 
 .image-center img {
     position: relative;
-    margin: 0 0 -208px;
+    margin: 0 0 -70px;
     z-index: 10;
-    padding-right: 30px;
+    padding-right: 10px;
     text-align: center;
+    
+}
+
+.career-sec{
+    margin-top: -50px;
+    margin-bottom: -50px;
 }
 
 .customwidget p {
@@ -1524,7 +1530,7 @@ hr.invis1 {
     display: table;
     width: 100%;
     margin: 64px 0;
-    cursor: pointer;
+    cursor: default;
 	-webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
 	box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
 	background: #393939;
