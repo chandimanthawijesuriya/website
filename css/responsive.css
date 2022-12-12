@@ -508,8 +508,15 @@
         right: -8%;
     }
 
+    .owl-prev i {
+        left: -9%;
+    }
+    .owl-next i {
+        right: -9%;
+    }
+
     .owl-carousel .owl-nav.disabled,
     .owl-carousel .owl-dots.disabled {
-    visibility: visible;
+    visibility:visible;
 }
 }
