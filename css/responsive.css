@@ -507,4 +507,9 @@
         margin-top: -10%;
         right: -8%;
     }
+
+    .owl-carousel .owl-nav.disabled,
+    .owl-carousel .owl-dots.disabled {
+    visibility: visible;
+}
 }

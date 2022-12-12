@@ -51,7 +51,7 @@
 
 .owl-carousel .owl-nav.disabled,
 .owl-carousel .owl-dots.disabled {
-    
+    visibility: hidden;
 }
 
 .owl-carousel .owl-nav .owl-prev,
