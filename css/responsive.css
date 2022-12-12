@@ -518,5 +518,21 @@
     .owl-carousel .owl-nav.disabled,
     .owl-carousel .owl-dots.disabled {
     visibility:visible;
-}
+    }
+
+    .features-sec {
+        margin-top: -80px;
+    }
+
+    .project-sec{
+        margin-top: -40px;
+    }
+
+    .faq-header{
+        font-size: 25px;
+    }
+
+    .faq-sub-header{
+        font-size: 14px;
+    }
 }
